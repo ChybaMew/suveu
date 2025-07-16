@@ -39,7 +39,7 @@ int serial_write(serial_t serial, char *str) {
 	return fprintf(serial, "%s", str); 
 }
 
-char *serial_readline(serial_t serial, char *buf, int count) {
+char *serial_read(serial_t serial, char *buf, int count) {
 	return fgets(buf, count, serial);
 }
 

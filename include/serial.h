@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <termios.h>
 
 #define BAUD_RATE B9600

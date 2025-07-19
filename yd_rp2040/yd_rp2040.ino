@@ -113,7 +113,7 @@ void setup()
   oled.print("-ready");
   oled.display();
 
-  while(!Serial.find("|ready")){}
+  while(!Serial.find("|ready"));
 
   oled.setCursor(1, 9);
   oled.print("|ready");

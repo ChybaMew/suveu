@@ -1,3 +1,7 @@
+// code for bord YD_RP2040
+// with oled display
+// by ChybaWojtek?
+
 #include <Wire.h>           //necessary libraries
 #include <Adafruit_GFX.h>
 #include <Adafruit_SH110X.h>
